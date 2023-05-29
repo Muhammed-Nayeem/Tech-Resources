@@ -1,0 +1,42 @@
+[
+  {
+    "id": "58-0285873",
+    "name": "Muhammed Nayeem",
+    "author_img": "https://i.ibb.co/P92Y0FS/Muhammed-Nayeem.jpg",
+    "blog_img": "https://i.ibb.co/RgScq5t/fotis-fotopoulos-Du-HKo-V44prg-unsplash.jpg",
+    "title": "How to get your first job as a self-thought programmer",
+    "date": "16 April, 2023",
+    "time": 5,
+    "keywords": ["Beginners", "Programming", "DSA"]
+  },
+  {
+    "id": "66-1546493",
+    "name": "Joydip Paul",
+    "author_img": "https://i.ibb.co/f10BGJW/joydip.jpg",
+    "blog_img": "https://i.ibb.co/NYJ2sYQ/luca-bravo-XJXWbf-So2f0-unsplash.jpg",
+    "title": "Front End Development Core Fundamentals",
+    "date": "17 Feb, 2023",
+    "time": 15,
+    "keywords": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": "30-4401836",
+    "name": "Indrajit Chandra",
+    "author_img": "https://i.ibb.co/R0bz8TD/indrajit.jpg",
+    "blog_img": "https://i.ibb.co/bL7b0dV/nate-grant-QQ9-Lain-S6t-I-unsplash-1.jpg",
+    "title": "MERN Stack Project Development",
+    "date": "9 March, 2023",
+    "time": 8,
+    "keywords": ["MongoDB", "Node.js", "Express.js"]
+  },
+  {
+    "id": "04-7436626",
+    "name": "Crescent Partha",
+    "author_img": "https://i.ibb.co/4TF7Ykh/partha.jpg",
+    "blog_img": "https://i.ibb.co/FD785Pr/danial-igdery-FCHl-Yv-R5g-JI-unsplash.jpg",
+    "title": "Web and Android Application Development",
+    "date": "3 May, 2023",
+    "time": 10,
+    "keywords": ["React.js", "Node.js", "ReactNative"]
+  }
+]

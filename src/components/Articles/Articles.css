@@ -1,0 +1,14 @@
+.articles {
+  padding: 40px 0;
+}
+.articles__content {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 60px;
+}
+.articles__cards {
+  width: 100%;
+}
+.articles__bookmarks {
+  width: 100%;
+}

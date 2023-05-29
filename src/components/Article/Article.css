@@ -1,0 +1,93 @@
+.article__card {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.article__card:last-child {
+  border-bottom: 0;
+}
+.article__card button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  margin-top: 18px;
+  color: #06b806;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.article__card-img {
+  width: 100%;
+  height: 340px;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
+}
+.article__card-img img {
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  border-radius: 3px;
+}
+.article__details {
+  margin-top: 20px;
+}
+.article__profile {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.article__user {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.article__user img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #e6e6e6;
+  border-radius: 50%;
+}
+.article__user h3 {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #333;
+}
+.article__user h3 span {
+  display: block;
+  font-size: 12px;
+  margin-top: -3px;
+  color: #11111199;
+  font-weight: normal;
+}
+.article__time {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.article__time p {
+  color: #11111199;
+  margin-right: 8px;
+}
+.article__time button {
+  color: #11111199;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.article__time button:hover {
+  color: #00a700;
+}
+.article__info {
+  margin-top: 20px;
+}
+.article__info h1 {
+  color: #333;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.article__info p {
+  font-size: 15px;
+  color: #11111199;
+}
+.article__info p span {
+  margin-right: 5px;
+}
