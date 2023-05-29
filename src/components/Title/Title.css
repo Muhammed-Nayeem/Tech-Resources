@@ -1,0 +1,10 @@
+.article__bookmarked-title {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+.article__bookmarked-title h2 {
+  color: #333;
+  font-size: 18px;
+}

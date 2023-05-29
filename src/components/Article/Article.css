@@ -61,7 +61,7 @@
 }
 .article__time {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   align-items: center;
 }
 .article__time p {
@@ -69,12 +69,14 @@
   margin-right: 8px;
 }
 .article__time button {
+  margin: 0;
   color: #11111199;
-  cursor: pointer;
-  transition: 0.5s;
+  transition: .5s;
+  border: 1px solid #11111199;
+  padding: 2px;
 }
 .article__time button:hover {
-  color: #00a700;
+  color: #06b806;
 }
 .article__info {
   margin-top: 20px;

@@ -1,0 +1,11 @@
+.article__reading-time {
+  background-color: #6047EC1A;
+  border: 1px solid #6047EC;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 12px 0;
+}
+.article__reading-time p {
+  color: #6047EC;
+  text-align: center;
+}

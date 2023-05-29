@@ -4,7 +4,8 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 import "./Article.css";
 
 const Article = (props) => {
-  const {author_img, blog_img, name, title, time, date, keywords:[first, second, third]} = props.article;
+  const { author_img, blog_img, name, title, time, date, keywords:[first, second, third] } = props.article;
+  const { bookmarkHandler, readingTimeHandler } = props;
 
   return (
     <div className='article__card'>
@@ -19,7 +20,7 @@ const Article = (props) => {
           </div>
           <div className="article__time">
             <p>{time} mins read</p>
-            <button type='button'>
+            <button type='button' onClick={() => bookmarkHandler(props.article)}>
               <FontAwesomeIcon icon={faBookmark} />
             </button>
           </div>
@@ -29,7 +30,7 @@ const Article = (props) => {
           <p><span>#{first}</span> <span>#{second}</span> <span>#{third}</span></p>
         </div>
       </div>
-      <button type='button'>Mark As Read</button>
+      <button type='button' onClick={() => readingTimeHandler(time)}>Mark As Read</button>
     </div>
   );
 };

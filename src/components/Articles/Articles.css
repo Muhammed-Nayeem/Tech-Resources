@@ -12,3 +12,7 @@
 .articles__bookmarks {
   width: 100%;
 }
+.articles__bookmarks-wrapper {
+  position: sticky;
+  top: 0;
+}

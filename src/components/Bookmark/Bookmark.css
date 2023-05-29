@@ -1,0 +1,9 @@
+.article__bookmark {
+  background-color: #fcfbfb;
+  padding: 20px 10px;
+  border-radius: 3px;
+}
+.article__bookmark h3 {
+  text-align: center;
+  color: #333;
+}
